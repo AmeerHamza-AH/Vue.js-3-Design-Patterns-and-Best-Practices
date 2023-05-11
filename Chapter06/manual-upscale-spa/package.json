@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
-    "dev-host": "vite --host"
+    "dev-host": "node init && vite --host"
   },
   "dependencies": {
     "vue": "^3.2.41"
